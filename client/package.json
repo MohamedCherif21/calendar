@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "stage2023": "file:.."
+  }
+}

@@ -1,0 +1,82 @@
+/* template2.css */
+
+/* ... (previous styles) */
+
+.cv-template {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .top {
+    text-align: left;
+    margin-bottom: 5px;
+    background-color: #5ddaf0cc;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    display: flex; /* Ajoutez ceci */
+    flex-direction: column; /* Ajoutez ceci */
+  }
+  
+  .top h1 {
+    margin: 0;
+    font-size: 28px;
+    margin-bottom: 10px; /* Ajoutez une marge inférieure */
+  }
+  
+  
+  
+  /* ... (rest of the styles) */
+  
+  .section h2 {
+    font-size: 22px;
+    color: #e74c3c; /* Red color */
+  }
+  
+  /* ... (rest of the styles) */
+  
+  .two-columns {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 5px solid #5ddaf0cc; /* Green left border */
+    
+    
+  }
+  
+  .column {
+    flex: 1;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .project-item,
+  .experience-item {
+    margin-bottom: 15px;
+    
+    padding-left: 10px;
+  }
+  
+  .project-item p,
+  .experience-item p {
+    margin: 5px 0;
+  }
+
+  .profile-image {
+    max-width: 15%; 
+    max-height: 20%;
+    float: right; /* Pour aligner l'image à droite */
+    margin-left: 8px; /* Pour ajouter un espace entre l'image et le contenu */
+    border: 5px solid #5ddaf0cc;
+    
+  
+  }
+  
+  /* ... (rest of the styles) */
+  
